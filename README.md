@@ -25,9 +25,9 @@ It takes inspiration for how it works and looks from [discord-stock-ticker](http
 
 ```nvm install --lts```
 
-- Clone to system
+- Clone to system and give it the token name you will be running (i.e. orc-bot)
 
-```https://github.com/go140point6/crypto-sgbnetwork-price-bot.git```\
+```https://github.com/go140point6/crypto-sgbnetwork-price-bot.git token-bot```\
 ```cd ~/crypto-sgbnetwork-price-bot```\
 ```npm install```\
 ```cp .env-template .env```
