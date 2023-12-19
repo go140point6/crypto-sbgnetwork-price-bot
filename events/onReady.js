@@ -253,7 +253,7 @@ async function onReady(client) {
       client.user.setPresence({
         activities: [{
         name: `SGB=${tokenSGBPrice} ${symbol}`,
-        type: `PLAYING`
+        type: ActivityType.Watching
         }]
       })
     
